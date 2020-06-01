@@ -19,7 +19,7 @@ p1 {
     position: relative;
     margin: auto;
     margin-top: 50px;
-    width: 50%;
+    width: 30%;
     text-align: center;
     display: flex;
     color: black;
@@ -30,9 +30,19 @@ p2 {
     width: 50%;
     margin: auto;
     margin-top: 20px;
-    text-align: left;
+    text-align: center;
     display: flex;
-    color: white;
+    color: black;
+}
+
+p3 {
+    position: relative;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    color: black;
 }
 
 p.two {
@@ -77,10 +87,9 @@ h3 {
 }
 
 h4 {
-    margin-left: 3%;
+    display: inherit;
     color: black;
-    font-size: 24px;
-    margin-top: 15px;
+    font-size: 30px;
 }
 
 
@@ -105,7 +114,6 @@ li.homenav {
 /*other pages navigation bar */
 
 ul.nav {
-    list-style-type: none;
     width: 100%;
     background-color: white;
     padding: 10px;
@@ -115,37 +123,29 @@ li.nav {
     display: inline;
     width: 200px;
     padding: 10px;
+    position: relative;
+}
+
+
+/*making SABINE NIX show up as part of the nav bar - TODO dont use dumb padding to make it separate*/
+
+li.navname {
+    position: relative;
+    display: inline;
+    width: 100%;
+    margin-left: 0px;
+    font-size: 36px;
+    padding-right: 35%;
 }
 
 li a:hover {
     color: forestgreen;
 }
 
-ul.pubs {
-    list-style-type: none;
-    width: 85%;
-    max-width: 500px;
-    position: relative;
-    left: 10%;
-    line-height: 150%;
-}
-
-div.astronomy {
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 45%;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-right: 50px;
-    margin-right: 50%;
-    margin-left: 10px;
-}
-
 span.listText {
     max-width: 500px;
     margin-left: 10px;
 }
-
-ul.projbar {}
 
 
 /*normal list*/
